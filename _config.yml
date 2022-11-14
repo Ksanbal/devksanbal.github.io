@@ -1,8 +1,9 @@
 title: "ksanbal blog"
+email: "dev.ksanbal@gmail.com"
 tagline: "A jekyll theme that looks like a shell/terminal"
 description: "This is a preview of jekyll-shell-theme."
 github_username: Ksanbal
-baseurl: "/"
+baseurl: "/posts"
 url: "https://ksanbal.github.io"
 
 plugins:
@@ -21,4 +22,4 @@ header_pages:
   - preview.md
 
 # set the size of the text to 'large' or 'small', default is small
-font-size: small
+font-size: large
