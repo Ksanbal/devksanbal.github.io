@@ -45,5 +45,5 @@ title: dev.ksanbal
 - [GoLang CSV 다루기](posts/language/go/GoLang CSV 다루기)
 
 # ETC
-## VSCode
+- [git cofig로 아이디, 비밀번호 저장하기](posts/etc/git cofig로 아이디, 비밀번호 저장하기)
 - [vscode theme & extension 추천](posts/etc/vscode theme & extension 추천)
