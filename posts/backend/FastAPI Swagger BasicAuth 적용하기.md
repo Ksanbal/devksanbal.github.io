@@ -3,6 +3,7 @@ layout: page
 permalink: posts/backend/FastAPI Swagger BasicAuth 적용하기
 permalink_name: /FastAPI Swagger BasicAuth 적용하기
 title: FastAPI Swagger BasicAuth 적용하기
+last_modified_at: 2022-05-09
 ---
 # FastAPI Swagger BasicAuth 적용하기
 

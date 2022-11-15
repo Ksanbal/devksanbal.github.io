@@ -3,6 +3,7 @@ layout: page
 permalink: posts/app/flutter/Flutter secure storage - platformException
 permalink_name: /Flutter secure storage - platformException
 title: Flutter secure storage - platformException
+last_modified_at: 2021-10-13
 
 detail_image: /assets/images/Flutter secure storage.png
 ---

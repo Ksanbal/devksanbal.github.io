@@ -3,6 +3,7 @@ layout: page
 permalink: posts/infra/Django, Gunicorn, Nginx, Docker 설정
 permalink_name: /Django, Gunicorn, Nginx, Docker 설정
 title: Django, Gunicorn, Nginx, Docker 설정
+last_modified_at: 2021-09-08
 ---
 # Django, Gunicorn, Nginx, Docker 설정
 

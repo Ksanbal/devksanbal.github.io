@@ -3,6 +3,7 @@ layout: page
 permalink: posts/app/flutter/DraggableScrollableSheet
 permalink_name: /DraggableScrollableSheet
 title: DraggableScrollableSheet
+last_modified_at: 2021-09-07
 ---
 
 # DraggableScrollableSheet

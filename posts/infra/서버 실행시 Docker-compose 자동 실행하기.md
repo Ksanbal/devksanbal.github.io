@@ -3,6 +3,7 @@ layout: page
 permalink: posts/infra/서버 실행시 Docker-compose 자동 실행하기
 permalink_name: /서버 실행시 Docker-compose 자동 실행하기
 title: 서버 실행시 Docker-compose 자동 실행하기
+last_modified_at: 2021-11-18
 ---
 # 서버 실행시 Docker-compose 자동 실행하기
 

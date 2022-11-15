@@ -3,6 +3,7 @@ layout: page
 permalink: posts/language/python/Python dictionary로 Class instance 생성하기
 permalink_name: /Python dictionary로 Class instance 생성하기
 title: Python dictionary로 Class instance 생성하기
+last_modified_at: 2021-09-10
 ---
 # Python dictionary로 Class instance 생성하기
 

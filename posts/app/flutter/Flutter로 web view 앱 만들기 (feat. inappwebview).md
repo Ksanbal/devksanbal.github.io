@@ -3,6 +3,7 @@ layout: page
 permalink: posts/app/flutter/Flutter로 web view 앱 만들기
 permalink_name: /Flutter로 web view 앱 만들기 (feat. inappwebview)
 title: Flutter로 web view 앱 만들기 (feat. inappwebview)
+last_modified_at: 2022-12-29
 ---
 
 # Flutter로 web view 앱 만들기 (feat. inappwebview)

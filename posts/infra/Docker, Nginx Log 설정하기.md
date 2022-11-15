@@ -3,6 +3,7 @@ layout: page
 permalink: posts/infra/Docker, Nginx Log 설정하기
 permalink_name: /Docker, Nginx Log 설정하기
 title: Docker, Nginx Log 설정하기
+last_modified_at: 2021-10-07
 ---
 # Docker, Nginx Log 설정하기
 

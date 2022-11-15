@@ -3,6 +3,7 @@ layout: page
 permalink: posts/app/flutter/Flutter 상태관리와 라우트관리 패키지 GetX
 permalink_name: /Flutter 상태관리와 라우트관리 패키지 GetX
 title: Flutter 상태관리와 라우트관리 패키지 GetX
+last_modified_at: 2021-09-07
 ---
 
 # Flutter 상태관리와 라우트관리 패키지 GetX

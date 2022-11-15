@@ -3,6 +3,7 @@ layout: page
 permalink: posts/app/flutter/Flutter 좌표 구하는 패키지 Geolocator
 permalink_name: /Flutter 좌표 구하는 패키지 Geolocator
 title: Flutter 좌표 구하는 패키지 Geolocator
+last_modified_at: 2021-09-07
 ---
 # Flutter 좌표 구하는 패키지 Geolocator
 

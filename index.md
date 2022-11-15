@@ -21,7 +21,6 @@ title: dev.ksanbal
 
 # Backend
 - [FastAPI Swagger BasicAuth 적용하기](posts/backend/FastAPI Swagger BasicAuth 적용하기)
-- [Python dictionary로 Class instance 생성하기](posts/backend/Python dictionary로 Class instance 생성하기)
 - [Django & python에서 AWS IoT Core로 topic publish 하기](posts/backend/Django & python에서 AWS IoT Core로 topic publish 하기)
 - [FastAPI 시작하기 (1) feat. Django](posts/backend/FastAPI 시작하기 1 feat Django)
 

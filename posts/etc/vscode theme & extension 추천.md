@@ -3,6 +3,7 @@ layout: page
 permalink: posts/etc/vscode theme & extension 추천
 permalink_name: /vscode theme & extension 추천
 title: vscode theme & extension 추천
+last_modified_at: 2021-09-07
 ---
 
 ## Theme

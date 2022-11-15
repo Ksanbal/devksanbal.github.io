@@ -3,6 +3,7 @@ layout: page
 permalink: posts/app/flutter/Flutter CocoaPods could not find compatible versions for pod Firebase/Messaging on M1 해결법
 permalink_name: /Flutter CocoaPods could not find compatible versions for pod "Firebase/Messaging" on M1 해결법
 title: Flutter CocoaPods could not find compatible versions for pod "Firebase/Messaging" on M1 해결법
+last_modified_at: 2021-09-24
 ---
 
 # Flutter CocoaPods could not find compatible versions for pod "Firebase/Messaging" on M1 해결법

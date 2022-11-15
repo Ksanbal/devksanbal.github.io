@@ -3,6 +3,7 @@ layout: page
 permalink: posts/app/flutter/Flutter 문법 Tip
 permalink_name: /Flutter 문법 Tip
 title: Flutter 문법 Tip
+last_modified_at: 2021-09-29
 ---
 
 # Flutter 문법 Tip

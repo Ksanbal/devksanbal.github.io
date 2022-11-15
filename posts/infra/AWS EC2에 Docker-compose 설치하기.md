@@ -3,6 +3,7 @@ layout: page
 permalink: posts/infra/AWS EC2에 Docker-compose 설치하기
 permalink_name: /AWS EC2에 Docker-compose 설치하기
 title: AWS EC2에 Docker-compose 설치하기
+last_modified_at: 2021-09-08
 ---
 # AWS EC2에 Docker-compose 설치하기
 

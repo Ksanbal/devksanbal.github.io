@@ -3,6 +3,7 @@ layout: page
 permalink: posts/app/flutter/Flutter Drawer Programmatic하게 다루기
 permalink_name: /Flutter Drawer Programmatic하게 다루기
 title: Flutter Drawer Programmatic하게 다루기
+last_modified_at: 2021-09-30
 ---
 
 # Flutter Drawer Programmatic하게 다루기

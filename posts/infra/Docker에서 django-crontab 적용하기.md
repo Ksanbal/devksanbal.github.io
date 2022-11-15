@@ -3,6 +3,7 @@ layout: page
 permalink: posts/infra/Docker에서 django-crontab 적용하기
 permalink_name: /Docker에서 django-crontab 적용하기
 title: Docker에서 django-crontab 적용하기
+last_modified_at: 2022-08-04
 ---
 # Docker에서 django-crontab 적용하기
 

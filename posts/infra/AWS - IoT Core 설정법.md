@@ -3,6 +3,7 @@ layout: page
 permalink: posts/infra/AWS - IoT Core 설정법
 permalink_name: /AWS - IoT Core 설정법
 title: AWS - IoT Core 설정법
+last_modified_at: 2021-09-08
 ---
 
 # AWS - IoT Core 설정법

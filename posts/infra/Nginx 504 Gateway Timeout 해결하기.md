@@ -3,6 +3,7 @@ layout: page
 permalink: posts/infra/Nginx 504 Gateway Timeout 해결하기
 permalink_name: /Nginx 504 Gateway Timeout 해결하기
 title: Nginx 504 Gateway Timeout 해결하기
+last_modified_at: 2021-11-19
 ---
 # Nginx 504 Gateway Timeout 해결하기
 
