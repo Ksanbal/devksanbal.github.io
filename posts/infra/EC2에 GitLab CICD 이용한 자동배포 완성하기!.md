@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/infra/EC2에 GitLab CICD 이용한 자동배포 완성하기!
 permalink_name: /EC2에 GitLab CICD 이용한 자동배포 완성하기!
 title: EC2에 GitLab CICD 이용한 자동배포 완성하기!

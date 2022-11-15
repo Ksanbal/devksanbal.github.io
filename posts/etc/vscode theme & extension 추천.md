@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/etc/vscode theme & extension 추천
 permalink_name: /vscode theme & extension 추천
 title: vscode theme & extension 추천

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/app/flutter/Flutter로 web view 앱 만들기
 permalink_name: /Flutter로 web view 앱 만들기 (feat. inappwebview)
 title: Flutter로 web view 앱 만들기 (feat. inappwebview)

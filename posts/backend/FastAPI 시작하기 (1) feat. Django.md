@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/backend/FastAPI 시작하기 1 feat Django
 permalink_name: /FastAPI 시작하기 (1) feat. Django
 title: FastAPI 시작하기 (1) feat. Django

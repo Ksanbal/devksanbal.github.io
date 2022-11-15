@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/app/flutter/Flutter & Firebase 참고 링크
 permalink_name: /Flutter & Firebase 참고 링크
 title: Flutter & Firebase 참고 링크

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/infra/Nginx 504 Gateway Timeout 해결하기
 permalink_name: /Nginx 504 Gateway Timeout 해결하기
 title: Nginx 504 Gateway Timeout 해결하기

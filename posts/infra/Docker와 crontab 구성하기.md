@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/infra/Docker와 crontab 구성하기
 permalink_name: /Docker와 crontab 구성하기
 title: Docker와 crontab 구성하기

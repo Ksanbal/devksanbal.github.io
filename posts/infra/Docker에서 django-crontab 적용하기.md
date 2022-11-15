@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/infra/Docker에서 django-crontab 적용하기
 permalink_name: /Docker에서 django-crontab 적용하기
 title: Docker에서 django-crontab 적용하기

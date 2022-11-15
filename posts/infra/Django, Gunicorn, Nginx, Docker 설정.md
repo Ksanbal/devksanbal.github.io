@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/infra/Django, Gunicorn, Nginx, Docker 설정
 permalink_name: /Django, Gunicorn, Nginx, Docker 설정
 title: Django, Gunicorn, Nginx, Docker 설정

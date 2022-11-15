@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/backend/Django & python에서 AWS IoT Core로 topic publish 하기
 permalink_name: /Django & python에서 AWS IoT Core로 topic publish 하기
 title: Django & python에서 AWS IoT Core로 topic publish 하기

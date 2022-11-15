@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/infra/Nginx & Docker Local에서 멀티 도메인 지원하기(FastAPI에서 Django Admin 쓰기)
 permalink_name: /Nginx & Docker Local에서 멀티 도메인 지원하기(FastAPI에서 Django Admin 쓰기)
 title: Nginx & Docker Local에서 멀티 도메인 지원하기(FastAPI에서 Django Admin 쓰기)

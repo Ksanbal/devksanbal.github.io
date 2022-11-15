@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/app/flutter/Flutter 좌표 구하는 패키지 Geolocator
 permalink_name: /Flutter 좌표 구하는 패키지 Geolocator
 title: Flutter 좌표 구하는 패키지 Geolocator

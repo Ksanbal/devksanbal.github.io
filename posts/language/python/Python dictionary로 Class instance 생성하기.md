@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/language/python/Python dictionary로 Class instance 생성하기
 permalink_name: /Python dictionary로 Class instance 생성하기
 title: Python dictionary로 Class instance 생성하기

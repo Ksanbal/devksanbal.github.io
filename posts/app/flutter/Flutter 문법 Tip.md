@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/app/flutter/Flutter 문법 Tip
 permalink_name: /Flutter 문법 Tip
 title: Flutter 문법 Tip

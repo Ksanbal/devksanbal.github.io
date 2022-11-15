@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: /preview
 permalink_name: /preview
 title: This is the page title

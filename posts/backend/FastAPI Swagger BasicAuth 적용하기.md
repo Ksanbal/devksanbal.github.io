@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/backend/FastAPI Swagger BasicAuth 적용하기
 permalink_name: /FastAPI Swagger BasicAuth 적용하기
 title: FastAPI Swagger BasicAuth 적용하기

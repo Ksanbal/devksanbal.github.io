@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/infra/M1 Mac docker & docker-compose 설치
 permalink_name: /M1 Mac docker & docker-compose 설치
 title: M1 Mac docker & docker-compose 설치

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/app/flutter/Flutter & Firebase Auth(Google, Apple, Email Login) 사용하기
 permalink_name: /Flutter & Firebase Auth(Google, Apple, Email Login) 사용하기
 title: Flutter & Firebase Auth(Google, Apple, Email Login) 사용하기

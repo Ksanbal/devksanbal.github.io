@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/language/go/GoLang 문법 시작하기
 permalink_name: /GoLang 문법 시작하기
 title: GoLang 문법 시작하기

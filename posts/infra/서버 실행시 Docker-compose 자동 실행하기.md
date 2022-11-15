@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/infra/서버 실행시 Docker-compose 자동 실행하기
 permalink_name: /서버 실행시 Docker-compose 자동 실행하기
 title: 서버 실행시 Docker-compose 자동 실행하기

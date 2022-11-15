@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/app/flutter/DraggableScrollableSheet
 permalink_name: /DraggableScrollableSheet
 title: DraggableScrollableSheet

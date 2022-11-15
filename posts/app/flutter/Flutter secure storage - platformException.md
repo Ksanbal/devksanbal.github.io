@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/app/flutter/Flutter secure storage - platformException
 permalink_name: /Flutter secure storage - platformException
 title: Flutter secure storage - platformException

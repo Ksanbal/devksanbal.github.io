@@ -17,7 +17,7 @@
       </li>
       {%- endif -%} {%- endfor -%}
       <br />
-      {% if page.date %}
+      {% if page.last_modified_at %}
       <div class="page-date">
         <span>published in {{page.last_modified_at | date: '%Y, %b %d'}}</span>
       </div>

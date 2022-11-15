@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/app/flutter/Flutter Null Safety
 permalink_name: /Flutter Null Safety...?
 title: Flutter Null Safety...?

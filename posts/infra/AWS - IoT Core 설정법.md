@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/infra/AWS - IoT Core 설정법
 permalink_name: /AWS - IoT Core 설정법
 title: AWS - IoT Core 설정법

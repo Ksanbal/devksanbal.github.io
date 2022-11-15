@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/app/flutter/Flutter 상태관리와 라우트관리 패키지 GetX
 permalink_name: /Flutter 상태관리와 라우트관리 패키지 GetX
 title: Flutter 상태관리와 라우트관리 패키지 GetX

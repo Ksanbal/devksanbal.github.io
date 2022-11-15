@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: posts/infra/Docker, Nginx Log 설정하기
 permalink_name: /Docker, Nginx Log 설정하기
 title: Docker, Nginx Log 설정하기
