@@ -12,6 +12,7 @@ plugins:
   - jemoji
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-feed
 
 sass:
   style: compressed
@@ -25,3 +26,26 @@ header_pages:
 
 # set the size of the text to 'large' or 'small', default is small
 font-size: large
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  # 전역적으로 코드 라인 활성화 #
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
