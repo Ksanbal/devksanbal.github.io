@@ -10,7 +10,7 @@
 :root {
 
   --main-color: white;
-  --bg-color: black;
+  --bg-color: #1e1f29;
 
   --text-color: #DDD;
   --pop-color: white;
@@ -21,9 +21,14 @@
 
 /* BASE */
 body { background-color: var(--bg-color); color: var(--main-color); font-family: 'Roboto Mono', monospace; margin: 0 auto; width: 90%; max-width: 700px; line-height: 2em; font-size: 0.9em; }
-h1, h2, h3, h4, h5, h6 {  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--pop-color); font-size: 1em; }
+// h1, h2, h3, h4, h5, h6 {  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--pop-color); font-size: 1em; }
+h1 {  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: #af7af8; font-size: 1.6em; }
+h2 {  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: #feaa59; font-size: 1.4em; }
+h3 {  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: #49ff6a; font-size: 1.2em; }
+h4, h5, h6 {  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: #af7af8; font-size: 1em; }
+
 p, ul, ol { font-size: 1em;  color: var(--text-color); }
-a { text-decoration: underline;  color: var(--alt-color); }
+a { text-decoration: underline;  color: #fc5dba; }
 a:hover { color: var(--bg-color); background-color: var(--alt-color); }
 .primary-text { color: var(--main-color); }
 @media only screen and (max-device-width: 500px) { * { font-size: 12px !important; } }
@@ -41,6 +46,7 @@ header { margin-top: 25px;  margin-bottom: 10px; }
 header p { text-align: left;  margin: 0; }
 footer { margin-bottom: 20px; }
 img.home_header { width: 100%; margin-top: 5%; margin-bottom: 5%; }
+img.small_header { width: 30%; }
 img.detail_header { width: 100%; }
 
 /* LISTS */
@@ -65,3 +71,50 @@ div.error_box { margin: 100px; text-align: center; }
 div.error_box h1 { font-size: 2em; }
 
 *::selection { background-color: var(--light-alt-color); color: black; }
+
+
+.tablelines th h1 {
+  font-weight: bold;
+  font-size: 1em;
+  text-align: left;
+  color: #185875;
+}
+
+.tablelines td {
+  font-weight: normal;
+  font-size: 1em;
+    -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+    -moz-box-shadow: 0 2px 2px -2px #0E1119;
+    box-shadow: 0 2px 2px -2px #0E1119;
+}
+
+.tablelines {
+  text-align: left;
+  overflow: hidden;
+  width: 95%;
+  margin: 0 auto;
+  display: table;
+  padding: 0 0 8em 0;
+}
+
+.tablelines td, .tablelines th {
+  padding-bottom: 2%;
+  padding-top: 2%;
+  padding-left:2%;  
+}
+
+/* Background-color of the odd rows */
+.tablelines tr:nth-child(odd) {
+  background-color: #323C50;
+}
+
+/* Background-color of the even rows */
+.tablelines tr:nth-child(even) {
+  background-color: #2C3446;
+}
+
+.tablelines th {
+  background-color: #1e1f29;
+}
+
+.tablelines td:first-child { color: #FB667A; }

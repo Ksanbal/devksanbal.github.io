@@ -1,9 +1,15 @@
 ---
 layout: default
-title:  "POSTS"
+title: "POSTS"
 ---
 
-{%- if page.detail_image -%}<img class="detail_header" src="{{ page.detail_image }}">{%- endif -%}
+{%- if page.detail_image -%}<img
+  class="detail_header"
+  src="{{ page.detail_image }}"
+/>{%- endif -%} {%- if page.small_image -%}<img
+  class="small_header"
+  src="{{ page.small_image }}"
+/>{%- endif -%}
 
 <h1>{{ page.post-title }}</h1>
 
