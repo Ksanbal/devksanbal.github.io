@@ -3,7 +3,7 @@ layout: post
 permalink: posts/infra/EC2에 GitLab CICD 이용한 자동배포 완성하기!
 permalink_name: /EC2에 GitLab CICD 이용한 자동배포 완성하기!
 title: EC2에 GitLab CICD 이용한 자동배포 완성하기!
-last_modified_at: 2022-05-26
+last_modified_at: 2022-11-17
 ---
 # EC2에 GitLab CI/CD 이용한 자동배포 완성하기!
 
@@ -35,17 +35,28 @@ last_modified_at: 2022-05-26
     
     ```bash
     $ curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.rpm.sh | sudo bash
-    # $ yum install gitlab-runner
+	$ sudo yum install gitlab-runner
     ```
+
+2. yum으로 설치하고나면 gitlab-runner라는 이름으로 이미 서비스가 등록되어버린다. 적용된 서비스의 삭제를 먼저 진행하자.
+	```shell
+	# 모든 runner 삭제
+	$ gitlab-runner unregister --all-runners
+	# gitlab-runner 제거
+	$ sudo gitlab-runner uninstall
+	# 추가된 사용자 제거
+	$ sudo userdel gitlab-runner
+	$ sudo rm -rf /home/gitlab-runner/
+	```
     
-2. 명령어를 실행하게될 유저와 directory를 설정해줘야하는데, 나는 이미 코드가 ec2-user에 있었기 때문에 root로 접근시켜서 해결하는 방식으로 했다. gitlab-runner라는 이름으로 user를 생성해서 하는 것도 방법이다.
+3. 명령어를 실행하게될 유저와 directory를 설정해줘야하는데, 나는 이미 코드가 ec2-user에 있었기 때문에 root로 접근시켜서 해결하는 방식으로 했다. gitlab-runner라는 이름으로 user를 생성해서 하는 것도 방법이다.
     
     ```bash
     $ sudo gitlab-runner install --user=root --working-directory=/home/ec2-user
     $ sudo gitlab-runner start
     ```
     
-3. 이제 GitLab으로 runner를 등록해주자. Token 입력이 필요하니까 미리 GitLab의 Settings → CI/CD → Runners에 Specific runners를 열어두자.
+4. 이제 GitLab으로 runner를 등록해주자. Token 입력이 필요하니까 미리 GitLab의 Settings → CI/CD → Runners에 Specific runners를 열어두자.
     
     ```bash
     $ sudo gitlab-runner register
@@ -74,7 +85,13 @@ last_modified_at: 2022-05-26
     shell
     ```
     
-4. 미리 열어둔 Settings → CI/CD → Runners에 가보면 runner가 등록된 것을 확인할 수 있다.
+5. 간혹 등록한 후에 ERROR: Preparation failed: getwd: getwd: no such file or directory 에러가 발생하는 경우가 있다. 이걸 방지하기 위해서 restart를 진행해주자.
+    [ERROR: Preparation failed: Getwd: getwd: no such file or directory](https://stackoverflow.com/questions/57328978/error-preparation-failed-getwd-getwd-no-such-file-or-directory)
+	```shell
+	$ gitlab-runner restart
+	```
+
+6. 미리 열어둔 Settings → CI/CD → Runners에 가보면 runner가 등록된 것을 확인할 수 있다.
 
 # `.gitlab-ci.yml` 작성하기
 
@@ -131,6 +148,3 @@ deploy branch로 push해서 정상적으로 작동하는지 확인해보자! Git
     .gitlab-ci.yml에서 stages 부분이 없었는데, 추가하고 나니까 체크표시나 실패표시가 뜨면서 log를 볼 수 있더라.
 - git pull 실패
     사실 이건 실패라고 하긴 좀 그렇고;;; 항상 ec2-user로 git pull을 했어서, root로는 권한이 없어서 생긴 문제다. 손으로 root에 접속해서 git pull을 한번 하면서 id, pw 입력한 후로를 잘 돌아갔다! (전에 한번 id, pw를 입력하면 그 정보를 저장해두는 설정을 했었다.)
-- ERROR: Preparation failed: getwd: getwd: no such file or directory
-  - `sudo gitlab-runner restart`로 해결할 수 있었다. 이유는 음…뭘까..?
-  [ERROR: Preparation failed: Getwd: getwd: no such file or directory](https://stackoverflow.com/questions/57328978/error-preparation-failed-getwd-getwd-no-such-file-or-directory)
