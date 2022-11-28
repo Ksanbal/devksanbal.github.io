@@ -26,6 +26,7 @@ title: dev.ksanbal
 - [FastAPI 시작하기 (1) feat. Django](posts/backend/FastAPI 시작하기 1 feat Django)
 
 # Infra
+- [Localhost와 Docker-compose 네트워크 연결하기](posts/infra/Localhost와 Docker-compose 네트워크 연결하기)
 - [Docker에서 django-crontab 적용하기](posts/infra/Docker에서 django-crontab 적용하기)
 - [EC2에 GitLab CI/CD 이용한 자동배포 완성하기!](posts/infra/EC2에 GitLab CICD 이용한 자동배포 완성하기!)
 - [Docker와 crontab 구성하기](posts/infra/Docker와 crontab 구성하기)
